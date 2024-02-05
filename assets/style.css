@@ -129,7 +129,7 @@ body {
 }
 
 
-/* PHONE */
+/*#region MEDIA PHONE */
 
 /* first phone 320px */
 
@@ -255,7 +255,62 @@ body {
         border-radius: 20px;
         position: absolute;
         left: 4%;
-        bottom: 43%;
+        bottom: 42%;
     }
+
+}
+
+/*#endregion MEDIA PHONE */
+
+@media screen and (min-width:451px) and (max-width:768px){
+    .container {
+        width: 100%;
+    }
+
+    .wrapper {
+        margin-top: 0px;
+    }
+
+    .left-site {
+        width: 15%;
+    }
+
+    .right-site {
+        width: 100%;
+    }
+
+    .notifications{
+        display: none;
+    }
+
+    .serch{
+        display: none;
+    }
+
+    .card{
+        height: 100px;
+    }
+    .message-1 {
+        background-color: #00ac4d;
+        height: auto;
+        width: 50%;
+        padding: 15px;
+        border-radius: 20px;
+        position: absolute;
+        top: 5%;
+        right: 10%;
+    }
+
+    .message-2 {
+        background-color: #c7c9c9;
+        height: auto;
+        width: 50%;
+        padding: 15px;
+        border-radius: 20px;
+        position: absolute;
+        left: 10%;
+        bottom: 42%;
+    }
+
 
 }
