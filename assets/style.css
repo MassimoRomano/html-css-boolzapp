@@ -312,5 +312,31 @@ body {
         bottom: 42%;
     }
 
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .message-1 {
+        background-color: #00ac4d;
+        height: auto;
+        width: 60%;
+        padding: 15px;
+        border-radius: 20px;
+        position: absolute;
+        top: 5%;
+        right: 10%;
+    }
+
+    .message-2 {
+        background-color: #c7c9c9;
+        height: auto;
+        width: 60%;
+        padding: 15px;
+        border-radius: 20px;
+        position: absolute;
+        left: 10%;
+        bottom: 42%;
+    }
 
 }
