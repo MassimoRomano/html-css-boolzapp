@@ -30,18 +30,20 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 95vh;
-
+    margin: 10% 0;
 }
 
 .left-site {
     height: auto;
-    width: 30%;   
+    width: 30%; 
+    height: 790px;
+
 }
 
 .right-site {
     width: 70%;
     height: auto;
+    height: 790px;
 }
 
 .me-profile {
@@ -75,12 +77,12 @@ body {
 .card-top {
     background-color: #e9e9e9;
     height: 80px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
-    padding: 15px 10px;
+    padding-right: 40px;
 }
 
 
@@ -150,7 +152,7 @@ a{
 
 .users{
     overflow-y: scroll;
-    height: 75%;
+    height: 480.5px;
 }
 
 .card {
@@ -184,6 +186,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 4%;
+    padding: 20px 0;
     overflow-y: scroll;
 }
 
@@ -199,7 +202,7 @@ a{
     width: 40%;
     padding: 15px;
     border-radius: 20px;
-    margin: 3% 10% 0 50%;
+    margin: 0 10% 1% 50%;
 }
 
 .message-2 {
@@ -208,7 +211,7 @@ a{
     width: 40%;
     padding: 15px;
     border-radius: 20px;
-    margin: 0 0 5% 10%;
+    margin: 0 0 1% 10%;
 }
 
 
