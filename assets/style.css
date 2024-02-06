@@ -15,40 +15,65 @@
 body {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, #00a884 0% 18%, #dddbd1 0% 82%);
+    background-image: linear-gradient(to bottom, #00a884  0% 24vh, #dddbd1 0% 88vh, #e7e6df 100% 38vh);
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 
 .wrapper {
+    height: 100vh;
+    
+}
+
+.app{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    align-items: center;
+    height: 95vh;
+
 }
 
 .left-site {
     height: auto;
-    width: 30%;
-    height: auto;
-
+    width: 30%;   
 }
 
 .right-site {
     width: 70%;
     height: auto;
-
-
 }
 
 .me-profile {
-    background-color: #ee00ce;
+    background-color: #e9e9e9;
     height: 80px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.171);
+    padding: 0 20px;
 
+    >img{
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+}
+
+.me-icon{
+    display: flex;
+    gap: 15px;
+    >i{
+        font-size: 20px;
+        color: rgb(141, 141, 141);
+    }
 }
 
 .card-top {
-    background-color: #410038;
+    background-color: #e9e9e9;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -56,8 +81,6 @@ body {
     align-items: center;
     gap: 10px;
     padding: 15px 10px;
-
-
 }
 
 
@@ -74,15 +97,60 @@ body {
 }
 
 .notifications {
-    background-color: #6f00ee;
+    background-color: #8ad3f5;
     height: 80px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
 
+    >i{
+        background-color: white;
+        color:#6cc5ee ;
+        padding: 15px;
+        border-radius: 100%;
+    }
+
+}
+.not-message{
+    padding: 10px; 
+}
+
+a{
+    color: rgb(131, 130, 130);
 }
 
 .serch {
-    background-color: #003529;
-    height: 40px;
+    background-color: #e9e9e9;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.bar{
+    background-color: white;
+    border-style: none;
+    height: 35px;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+.bar i{
+    color:rgb(163, 163, 163) ;
+}
+
+.bar input{
+    border-style: none;
+    width: 80%;
+}
+
+.users{
+    overflow-y: scroll;
+    height: 75%;
 }
 
 .card {
@@ -96,8 +164,9 @@ body {
     background-image: url(./img/mine.jpg);
     background-repeat: repeat;
     width: 100%;
-    height: 520px;
+    height: 530px;
     position: relative;
+    overflow-y: scroll;
 }
 
 .chat {
@@ -140,6 +209,7 @@ body {
 
     .wrapper {
         margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .left-site {
@@ -148,6 +218,7 @@ body {
 
     .right-site {
         width: 100%;
+        overflow-y: scroll;
     }
 
     .message-1 {
@@ -184,6 +255,7 @@ body {
 
     .wrapper {
         margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .left-site {
@@ -192,6 +264,7 @@ body {
 
     .right-site {
         width: 100%;
+        overflow-y: scroll;
     }
 
     .message-1 {
@@ -226,6 +299,7 @@ body {
 
     .wrapper {
         margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .left-site {
@@ -234,6 +308,7 @@ body {
 
     .right-site {
         width: 100%;
+        overflow-y: scroll;
     }
 
     .message-1 {
@@ -269,14 +344,18 @@ body {
 
     .wrapper {
         margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .left-site {
         width: 15%;
+        overflow: visible;
+        
     }
 
     .right-site {
         width: 100%;
+        height: 100%;
     }
 
     .notifications{
